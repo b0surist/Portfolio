@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólió</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+   
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Kezdőlap</a></li>
+        <li><a href="#about">Rólam</a></li>
+        <li><a href="#projects">Projektek</a></li>
+        <li><a href="#contact">Kapcsolat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <img src="kep.jpeg" alt="Profilkép" class="profile-pic">
+      <h1 class="title">Üdvözöllek a Portfóliómban!</h1>
+      <p class="subtitle">Szoftverfejlesztő és tesztelő</p>
+    </div>
+  </section>
+  
+  <section id="studies">
+    <div class="container">
+      <h2>Tanulmányok</h2>
+      <div class="study-item">
+        <i class="fas fa-university"></i>
+        <div>
+          <h3>Szoftverfejlesztő és tesztelő</h3>
+          <p>Szegedi SZC Vasvári Pál Gazdasági és Informatikai Technikum 2020-2025</p>
+        </div>
+      </div>
+      <div class="study-item">
+        <i class="fas fa-school"></i>
+        <div>
+          <h3>Makói Katolikus Általános Iskola és Óvoda</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="work-experience">
+    <div class="container">
+      <h2>Munkatapasztalat</h2>
+      <div class="work-item">
+        <i class="fas fa-school-flag"></i>
+        <div>
+          <p>Makó, Szikszai u.4 6900, Szikszai György Református Óvoda és Általános Iskola</p>
+          <p>2022. június - 2022. július</p>
+        </div>
+      </div>
+      <div class="work-item">
+        <i class="fas fa-book-open"></i>
+        <div>
+          <p>Makó, Deák Ferenc u. 6900, József Attila Könyvtár</p>
+          <p>2022. július- 2022. augusztus</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="about">
+    <div class="container">
+      <h3>🔹 Programozási Nyelvek</h3>
+      <div class="skills">
+        <div class="skill"><i class="fab fa-python"></i><span>Python</span></div>
+        <div class="skill"><i class="fab fa-java"></i><span>Java</span></div>
+        <div class="skill"><i class="fas fa-database"></i><span>SQL</span></div>
+        <div class="skill"><i class="fas fa-code"></i><span>C#</span></div>
+        <div class="skill"><i class="fab fa-html5"></i><span>HTML</span></div>
+        <div class="skill"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+        <div class="skill"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projektek</h2>
+      <div class="project-card" onclick="openModal('modal1')">
+        <h3>ClearDrive</h3>
+        <p>A biztonságosabb közlekedésért</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Kapcsolat</h2>
+      <p>Írj nekem a következő e-mail címre: <a href="">b0sursit@vasvari.org</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Portfólió</p>
+  </footer>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h2>ClearDrive</h2>
+      <p>Egy alkamazás amellyel segíthet a mindennapi közlekedés során felmerülő problémák megoldásában</p>
+      <img src="appiconfg.png" class="profile-pic">
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
